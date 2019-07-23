@@ -1,6 +1,12 @@
+                /* Fonts */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Comfortaa', cursive;
+}
+ 
                 /* MENU DE NAVIGATION */
 
-@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 body {
     background: #F5F5F5;
 }
@@ -232,12 +238,15 @@ h1 {
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 .sectionCenter{
     height: 100%;
+    flex-grow: 1;
 }
 
                 /* FOOTER */
@@ -249,14 +258,17 @@ body{
     font-size: 18px;
     color: white;
     height: 200px;
-    display: flex;
     margin: 0;
     padding-bottom: 0px;
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
     align-content: space-around;
+    justify-content: space-around;
     order: 1;
+}
+
+br{
+    padding: 10px;
 }
