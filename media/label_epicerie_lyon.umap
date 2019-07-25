@@ -1,0 +1,64 @@
+{
+  "type": "umap",
+  "uri": "http://umap.openstreetmap.fr/fr/map/label-epicerie-lyon_350030",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {},
+    "licence": "",
+    "description": "",
+    "name": "Label Epicerie Lyon",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 19
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      4.862032234668733,
+      45.76473505452786
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconUrl": "https://auphys.axsiow.ovh/media/labelepinew.png",
+              "color": "White",
+              "iconClass": "Drop",
+              "zoomTo": 2
+            },
+            "name": "Label Epicerie"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.862166,
+              45.764806
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Calque 1",
+        "id": 942153
+      }
+    }
+  ]
+}
