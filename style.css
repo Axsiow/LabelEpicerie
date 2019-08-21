@@ -19,6 +19,7 @@ body{
 .containernav {
   width: 100%;
   height: 100%;
+  background-color: #2f4858;
 }
 
 .navnav {
@@ -26,10 +27,12 @@ body{
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background-color: #2f4858;
   max-width: 800px;
+  color: white;
 }
 .navnav ul {
   font-size: 0;
   list-style-type: none;
+  color: white;
 }
 .navnav ul li {
   font-size: 1rem;
@@ -38,6 +41,10 @@ body{
   display: inline-block;
   padding: 15px;
   position: relative;
+}
+.navnav ul li a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .navnav ul li:hover {
   cursor: pointer;
@@ -97,7 +104,7 @@ h1 {
 
 .button_container {
     position: fixed;
-    top: 5%;
+    top: 10px;
     right: 2%;
     height: 27px;
     width: 35px;
@@ -123,7 +130,7 @@ h1 {
     background: #FFF;
 }
 .button_container span {
-    background: #3f7874;
+    background: #2f4858;
     border: none;
     height: 5px;
     width: 100%;
@@ -153,7 +160,7 @@ h1 {
 }
 .overlay:before {
     content: '';
-    background: #3f7874;
+    background: #2f4858;
     left: -55%;
     top: 0;
     width: 50%;
@@ -163,7 +170,7 @@ h1 {
 }
 .overlay:after {
     content: '';
-    background: #3f7874;
+    background: #2f4858;
     right: -55%;
     top: 0;
     width: 50%;
@@ -288,6 +295,7 @@ body{
     width: 100%;
     flex-grow: 1;
     max-height: 200px;
+    min-height: 100vh;
 }
 
 .sectionGallerie{
@@ -322,4 +330,3 @@ body{
     font-size: 15px;
     line-height: 1.5;
 }
-
