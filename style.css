@@ -294,8 +294,8 @@ body{
 .sectionCenter{
     width: 100%;
     flex-grow: 1;
-    max-height: 200px;
     min-height: 100vh;
+    order: 0;
 }
 
 .sectionGallerie{
@@ -320,7 +320,6 @@ body{
     align-items: center;
     align-content: space-around;
     justify-content: space-around;
-    order: 1;
 }
 
                 /* CARD */
@@ -339,7 +338,8 @@ body{
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	min-height: 50em
+    min-height: 50em;
+    max-width: 100%;
 }
 
 .cards {
@@ -348,7 +348,7 @@ body{
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	margin-left: 25px;
+	padding-left: 25px;
 }
 
 .cards2{
@@ -357,28 +357,69 @@ body{
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	margin-left: 25px;
+	padding-left: 25px;
 }
 
+                        /* BACKGROUND IMAGE CARD */
+
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--4 .card__img, .card--4 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--5 .card__img, .card--5 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--6 .card__img, .card--6 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--11 .card__img, .card--11 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--12 .card__img, .card--12 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--13 .card__img, .card--13 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--14 .card__img, .card--14 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--15 .card__img, .card--15 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+}
+
+.card--16 .card__img, .card--16 .card__img--hover {
+    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
 }
 
 
-
 .card__img {
-  visibility: hidden;
+  	visibility: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
+  	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
   
 }
 
