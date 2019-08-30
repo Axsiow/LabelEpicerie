@@ -52,7 +52,7 @@ body{
   color: #333333;
 }
 
-                /* MENU DE NAVIGATION */
+                /* OVERLAY NAV*/
 
 body {
     background: #F5F5F5;
@@ -303,6 +303,115 @@ body{
     flex-grow: 1;
 }
 
+
+					/* Section Contact */
+
+.sectionCenterContact{
+	margin-top: 100px;
+	width: 100%;
+    flex-grow: 1;
+}
+
+.sectionCenterContact h2{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+form{
+    margin-top: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+input[type*="e"]{
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    color: rgb(53, 53, 53);
+    border: 2px solid #555555;
+    transition: 0.3s;
+    outline: none;
+    font-style: italic;
+}
+  
+input[type*="e"]:focus{
+    border: 2px solid #1b1b1b;
+    border-radius: 10px;
+}
+
+textarea{
+    padding: 12px 20px; 
+    padding-bottom: 30vh;
+    box-sizing: border-box;
+    color: rgb(53, 53, 53);
+    border: 2px solid #555555;
+    transition: 0.3s;
+    outline: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+textarea:focus{
+    border: 2px solid #1b1b1b;
+    border-radius: 10px;
+}
+
+#boutonclair{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.301);
+    border: hidden 1px rgba(0, 0, 0, 0.301);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2%;
+    transition: background-color 0.3s, color 0.3s;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#boutonclair:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+#bouton{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+    border: solid 1px #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#bouton:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+
                 /* FOOTER */
 
 .footerIndex{
@@ -423,8 +532,6 @@ body{
   
 }
 
-
-
 .card__img--hover {
   	transition: 0.2s all ease-out;
     background-size: cover;
@@ -445,7 +552,8 @@ body{
     position: relative;
     border-radius: 12px;
   	overflow: hidden;
-  	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+    min-width: 150px;
 }
 .card:hover {
   	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
@@ -466,7 +574,7 @@ body{
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-  	²color: #868686;
+  	color: #868686;
 }
 
 .card__title {
