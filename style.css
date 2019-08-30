@@ -28,6 +28,9 @@ body{
   background-color: #2f4858;
   max-width: 800px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .navnav ul {
   font-size: 0;
@@ -472,15 +475,15 @@ textarea:focus{
                         /* BACKGROUND IMAGE CARD */
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+    background-image: url('media/IMG_2352.png');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+    background-image: url('media/IMG_2353.png');
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/devil_s_food_cake_2000.jpg?vd=20180522T020201Z&hash=645755F24A96F0D94B86A5C3E93F3CF9F77CA7BC');
+    background-image: url('media/IMG_2354.png');
 }
 
 .card--4 .card__img, .card--4 .card__img--hover {
