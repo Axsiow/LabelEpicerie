@@ -18,13 +18,13 @@
 				<li><a href="reserver.html">Réserver</a></li>
 				<li><a href="menu.html">Menu</a></li>
 				<li><a href="contact.php">Contact</a></li>
-			</ul>!
-	</div>
-	<div class="button_container" id="toggle">
-		<span class="top"></span>
-		<span class="middle"></span>
-		<span class="bottom"></span>
-	</div>
+			</ul>
+	    </div>
+	    <div class="button_container" id="toggle">
+		    <span class="top"></span>
+		    <span class="middle"></span>
+		    <span class="bottom"></span>
+	    </div>
 	</header>
 	<div class="overlay" id="overlay">
   	<nav class="overlay-menu">
